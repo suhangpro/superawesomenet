@@ -1,5 +1,5 @@
-function feats = cnn_shape_get_features( imList, model, layers, varargin )
-%CNN_SHAPE_GET_FEATURES Compute and save CNN activation features
+function feats = cnn_get_features( imList, model, layers, varargin )
+%CNN_GET_FEATURES Compute and save CNN activation features
 %
 %   imList:: 
 %       mode 1: cell array of image paths
